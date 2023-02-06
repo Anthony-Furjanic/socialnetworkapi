@@ -10,7 +10,7 @@ const assignmentSchema = new Schema(
       type: String,
       required: true,
       Unique: true,
-      default: Trimmed,
+      // default: Trimmed,
     },
     email: {
       type: String,

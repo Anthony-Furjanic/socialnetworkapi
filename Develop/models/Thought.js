@@ -21,12 +21,12 @@ const assignmentSchema = new Schema(
       // have not figured out how to do Mongoose validation
     },
     Username: {
-     
-      type: String
+      type: String,
+      Required:true,
     },
-   friends: {
-      // need to create array of _id values referencing User model 
+   reactions: { 
       type: Array
+      // still working to figure out how to create Array of nested documents created with the reactionSchema
     },
   },
   {
